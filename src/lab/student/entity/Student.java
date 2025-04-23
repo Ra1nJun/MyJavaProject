@@ -35,4 +35,11 @@ public class Student {
 		}
 		else this.grade = grade;
 	}
+
+	@Override
+	public String toString() {
+		return name + " / " + major + " / " + grade;
+	}
+	
+	
 }
